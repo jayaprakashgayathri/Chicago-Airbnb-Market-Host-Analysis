@@ -2,9 +2,9 @@
 
 An interactive Excel dashboard analyzing 8,660 real Airbnb listings in Chicago, exploring pricing patterns, host concentration, and guest satisfaction using Power Query and PivotTables.
 
-![Dashboard Screenshot](./dashboard-screenshot.png)
+![Dashboard Screenshot](./Dashboard_Screenshot.png)
 
-## 📊 Overview
+## Overview
 
 This project takes raw, publicly available Airbnb listings data and transforms it into a fully interactive business dashboard — no coding required, built entirely in Excel. The goal was to answer real market questions a host, investor, or city regulator might actually ask:
 
@@ -13,7 +13,7 @@ This project takes raw, publicly available Airbnb listings data and transforms i
 - Are there signs of large-scale, hotel-style operators disguised as individual hosts?
 - How satisfied are guests, and does that satisfaction vary by host type?
 
-## 🔍 Key Insights
+## Key Insights
 
 - **Location premium:** Loop ($488.52) and Near North Side ($455.90) price ~50% above the citywide average ($310.30)
 - **Superhost pricing gap:** Superhosts charge $273.23/night on average vs. $344.60 for non-Superhosts — a $71 gap, suggesting Superhosts compete on volume rather than premium pricing
@@ -22,7 +22,7 @@ This project takes raw, publicly available Airbnb listings data and transforms i
 - **Mature host base:** 48.46% of hosts hold Superhost status
 - **Possible hotel-scale operations:** The top host, "Luxury Bookings Fze," manages **6,003 listings** — far beyond individual home-sharing, suggesting large-scale corporate or property management activity operating on the platform
 
-## 🛠️ Tools & Techniques
+## Tools & Techniques
 
 - **Data cleaning:** Power Query — fixed currency-formatted price fields, handled nulls, removed unnecessary columns from the raw 70+ column dataset
 - **Analysis:** PivotTables for all core metrics (price, occupancy, review scores, host concentration)
@@ -30,22 +30,22 @@ This project takes raw, publicly available Airbnb listings data and transforms i
 - **Interactivity:** A Room Type slicer connected across every chart and KPI card via Report Connections, so the entire dashboard updates live when filtered
 - **KPI Cards:** Dynamic summary metrics (Total Listings, Average Price, Avg Occupancy, Superhost %, Largest Host Portfolio) built with `GETPIVOTDATA` so they respond to the slicer in real time
 
-## 🗂️ Data Source
+## Data Source
 
 Data from [Inside Airbnb](http://insideairbnb.com/) — Chicago listings snapshot. Inside Airbnb compiles publicly scraped, real Airbnb listing data (not synthetic), independently of Airbnb itself.
 
-## 📁 Files
+## Files
 
 - `chicago-airbnb-dashboard.xlsx` — the full interactive dashboard (open in Excel to use slicers/filters)
 - `dashboard-screenshot.png` — static preview image
 - `dashboard-export.pdf` — static PDF snapshot for quick viewing without Excel
 
-## ⚠️ Limitations
+## Limitations
 
 - `estimated_occupancy_l365d` is Airbnb's own modeled estimate, not confirmed booking data
 - Superhost status reflects a snapshot in time and may not match a host's status at the time of individual reviews
 - Some scatter/radar analyses in supporting sheets are static (not slicer-connected) due to Excel chart-type limitations
 
-## 📬 Contact
+## Contact
 
 Feel free to reach out with questions or feedback — [your email/LinkedIn here]
