@@ -36,9 +36,8 @@ Data from [Inside Airbnb](http://insideairbnb.com/) — Chicago listings snapsho
 
 ## Files
 
-- `chicago-airbnb-dashboard.xlsx` — the full interactive dashboard (open in Excel to use slicers/filters)
-- `dashboard-screenshot.png` — static preview image
-- `dashboard-export.pdf` — static PDF snapshot for quick viewing without Excel
+- `Chicago Airbnb Market & Host Analysis.xlsx` — the full interactive dashboard (open in Excel to use slicers/filters)
+- `Dashboard_Screenshot.png` — static preview image
 
 ## Limitations
 
@@ -48,4 +47,4 @@ Data from [Inside Airbnb](http://insideairbnb.com/) — Chicago listings snapsho
 
 ## Contact
 
-Feel free to reach out with questions or feedback — [your email/LinkedIn here]
+Feel free to reach out with questions or feedback — jgayathriforwork@gmail.com
