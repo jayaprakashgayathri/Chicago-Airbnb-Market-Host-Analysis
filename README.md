@@ -27,8 +27,8 @@ This project takes raw, publicly available Airbnb listings data and transforms i
 - **Data cleaning:** Power Query — fixed currency-formatted price fields, handled nulls, removed unnecessary columns from the raw 70+ column dataset
 - **Analysis:** PivotTables for all core metrics (price, occupancy, review scores, host concentration)
 - **Visualization:** Bar charts, donut chart, radar chart — chosen deliberately for variety and to match the specific comparison each answers
-- **Interactivity:** A Room Type slicer connected across every chart and KPI card via Report Connections, so the entire dashboard updates live when filtered
-- **KPI Cards:** Dynamic summary metrics (Total Listings, Average Price, Avg Occupancy, Superhost %, Largest Host Portfolio) built with `GETPIVOTDATA` so they respond to the slicer in real time
+- **Interactivity:** A Room Type slicer connected across every chart, so the entire dashboard updates live when filtered
+- **KPI Cards:** Dynamic summary metrics (Total Listings, Average Price, Avg Occupancy, Superhost %, Largest Host Portfolio) built with `PivotTables` so they respond to the slicer in real time
 
 ## Data Source
 
