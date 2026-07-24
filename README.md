@@ -2,7 +2,7 @@
 
 An interactive Excel dashboard analyzing 8,660 real Airbnb listings in Chicago, exploring pricing patterns, host concentration, and guest satisfaction using Power Query and PivotTables.
 
-![Dashboard Screenshot](./Dashboard_Screenshot.png)
+![Dashboard Screenshot](./dashboard_ss.png)
 
 ## Overview
 
